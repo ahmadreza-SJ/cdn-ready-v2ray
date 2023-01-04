@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+
+       
+  nginx:
+     build: .
+     container_name: meta-web
+     working_dir: /application
+     volumes:
+             - .:/application
+     ports: 
+       - 80:80
+
+  
+
+
+  
+ 
+
+  
+
+  
