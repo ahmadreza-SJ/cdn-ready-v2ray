@@ -11,4 +11,4 @@ curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh
 
 certbot renew --force-renewal
 
-sudo iptables -I INPUT -p tcp -m tcp –dport 443 -j ACCEPT.
+sudo ufw allow 4000
